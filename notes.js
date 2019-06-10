@@ -4,4 +4,5 @@
 // Most Gulp courses seem outdated. Make sure you are using the correct matching version of gulp to get working results!
 // You can install a SASS plugin for Gulp.
 // Used overrideBrowserlist to get autoprefixer working. Check docs for better alternative next time.
-// 
+// There was updated Gulp syntax 3/2019, installed gulp-watch plugin to get working.
+// Refer to Gulp documentation for updated syntax.
