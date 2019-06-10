@@ -1,6 +1,9 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
+var gulp = require('gulp'),
+    sass = require('gulp-sass'),
+    autoprefixer = require('gulp-autoprefixer'),
+    watch = require('gulp-watch');
+
+
 
 
 
@@ -11,8 +14,12 @@ gulp.task('sass', function () {
         overrideBrowserslist: ['last 2 versions']
     }))
     .pipe(gulp.dest('./public/css'));
-});
+})
 
-gulp.task('default', function() {
-    gulp.watch('./src/scss/**/*.scss',series('sass'));
+
+
+
+
+    gulp.task('default', ['sass'], function() {
+    gulp.watch('./src/scss/**/*', ['sass'])
 })
