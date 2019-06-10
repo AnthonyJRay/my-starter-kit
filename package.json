@@ -1,0 +1,26 @@
+{
+  "name": "my-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "notes.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyJRay/my-starter-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyJRay/my-starter-kit/issues"
+  },
+  "homepage": "https://github.com/AnthonyJRay/my-starter-kit#readme"
+}
