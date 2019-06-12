@@ -6,3 +6,16 @@
 // Used overrideBrowserlist to get autoprefixer working. Check docs for better alternative next time.
 // There was updated Gulp syntax 3/2019, installed gulp-watch plugin to get working.
 // Refer to Gulp documentation for updated syntax.
+
+// Set browser-sync "open" option to false. If set to true, each refresh will open a new window.
+// Handy CSS Minify gulp plugin for cleaning up code for production.
+
+// webpack takes an export module and takes in an input class and an output class.
+// for every module, there's rules, put in an object
+// rules are set to tell webpage what files, where, and files to exclude.
+// remember to refer to webpack.config.js file to see full config.
+// Can add plugins
+// REFER TO THE DOCUMENTATION~!
+
+// When you bundle a project, all the files go in through the "entry:" point.
+// One file to hold your JavaScript and a "vendor" to list all of you libraries and frameworks in an ARRAY! vendor: ['react', 'redux']
